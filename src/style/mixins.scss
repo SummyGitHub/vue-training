@@ -1,0 +1,9 @@
+@import "variables";
+
+@mixin borderSetting($border-width:1px,$border-style:solid,$border-color:#000000) {
+	border: {
+		color: $border-color;
+		width: $border-width;
+		style: $border-style
+	}
+}
